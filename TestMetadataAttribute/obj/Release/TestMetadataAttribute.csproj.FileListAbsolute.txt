@@ -1,0 +1,6 @@
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\TestMetadataAttribute\bin\Release\TestMetadataAttribute.exe.config
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\TestMetadataAttribute\bin\Release\TestMetadataAttribute.exe
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\TestMetadataAttribute\bin\Release\TestMetadataAttribute.pdb
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\TestMetadataAttribute\obj\Release\TestMetadataAttribute.csprojResolveAssemblyReference.cache
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\TestMetadataAttribute\obj\Release\TestMetadataAttribute.exe
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\TestMetadataAttribute\obj\Release\TestMetadataAttribute.pdb

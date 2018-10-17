@@ -1,0 +1,7 @@
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\bin\Debug\DOCMA_Decripter.exe.config
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\bin\Debug\DOCMA_Decripter.exe
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\bin\Debug\DOCMA_Decripter.pdb
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\bin\Debug\DF_CryptoUtil.dll
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\obj\Debug\DOCMA_Decripter.csprojResolveAssemblyReference.cache
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\obj\Debug\DOCMA_Decripter.exe
+C:\Users\Alessandro Grando\documents\visual studio 2015\Projects\Biggo\DOCMA_Decripter\obj\Debug\DOCMA_Decripter.pdb

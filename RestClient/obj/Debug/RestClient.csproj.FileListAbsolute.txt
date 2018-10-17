@@ -1,0 +1,7 @@
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\bin\Debug\RestClient.exe.config
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\bin\Debug\RestClient.exe
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\bin\Debug\RestClient.pdb
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\obj\Debug\RestClient.exe
+C:\Users\Alessandro Grando\Documents\Visual Studio 2015\Projects\Biggo\RestClient\obj\Debug\RestClient.pdb
