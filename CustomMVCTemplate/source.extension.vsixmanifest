@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CustomMVCTemplate.Company.dd6392fa-e37e-4e46-8b2c-acff1487dbae" Version="1.3" Language="en-US" Publisher="Alessandro" />
+    <DisplayName>CustomMVCTemplate</DisplayName>
+    <Description xml:space="preserve">CustomMvcTemplateCustom </Description>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Global.asax"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\App_Start"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\App_Start\BundleConfig.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\App_Start"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\App_Start\FilterConfig.cs"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\App_Start"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\App_Start\IdentityConfig.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\App_Start"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\App_Start\RouteConfig.cs"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\App_Start"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\App_Start\Startup.Auth.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Controllers"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Controllers\AccountController.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Controllers"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Controllers\HomeController.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Controllers"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Controllers\ManageController.cs"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Global.asax.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Models"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\Models\AccountViewModels.cs"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Models"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\Models\IdentityModels.cs"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Models"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Models\ManageViewModels.cs"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Scripts"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Scripts\jquery-1.10.2.min.map"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ConfirmEmail.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ExternalLoginConfirmation.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ExternalLoginFailure.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ForgotPassword.cshtml"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ForgotPasswordConfirmation.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\Register.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ResetPassword.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\ResetPasswordConfirmation.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\SendCode.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\VerifyCode.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Account"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Account\_ExternalLoginsListPartial.cshtml"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Home"
+            Type="Microsoft.VisualStudio.Mvc.Template"
+            d:Source="File"
+            Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Home\About.cshtml"
+            ProjectType="MVC"
+            Language="C#"
+            ViewEngine="Razor"
+            TemplateId="MyMvcApplication"
+            Title="Custom Basic Web Application"
+            Description="A custom template derived from a Basic MVC web application (Razor)"
+            Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Home"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Home\Contact.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Home"
+      Type="Microsoft.VisualStudio.Mvc.Template"
+      d:Source="File"
+      Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Home\Index.cshtml"
+      ProjectType="MVC"
+      Language="C#"
+      ViewEngine="Razor"
+      TemplateId="MyMvcApplication"
+      Title="Custom Basic Web Application"
+      Description="A custom template derived from a Basic MVC web application (Razor)"
+      Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage\AddPhoneNumber.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage\ChangePassword.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage\Index.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage\ManageLogins.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage\SetPassword.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Manage\VerifyPhoneNumber.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared\Error.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared\Lockout.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared\_Layout.cshtml"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared"
+      Type="Microsoft.VisualStudio.Mvc.Template"
+      d:Source="File"
+      Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Shared\_LoginPartial.cshtml"
+      ProjectType="MVC"
+      Language="C#"
+      ViewEngine="Razor"
+      TemplateId="MyMvcApplication"
+      Title="Custom Basic Web Application"
+      Description="A custom template derived from a Basic MVC web application (Razor)"
+      Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Views\Web.config"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx\Views"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Views\_ViewStart.cshtml"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx"
+          Type="Microsoft.VisualStudio.Mvc.Template"
+          d:Source="File"
+          Path="MVC_WebApplicationProjectTemplate.csaspx\Web.Debug.config"
+          ProjectType="MVC"
+          Language="C#"
+          ViewEngine="Razor"
+          TemplateId="MyMvcApplication"
+          Title="Custom Basic Web Application"
+          Description="A custom template derived from a Basic MVC web application (Razor)"
+          Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\Web.Release.config"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx"
+        Type="Microsoft.VisualStudio.Mvc.Template"
+        d:Source="File"
+        Path="MVC_WebApplicationProjectTemplate.csaspx\packages.config"
+        ProjectType="MVC"
+        Language="C#"
+        ViewEngine="Razor"
+        TemplateId="MyMvcApplication"
+        Title="Custom Basic Web Application"
+        Description="A custom template derived from a Basic MVC web application (Razor)"
+        Version="4.0"/>
+
+    <Asset d:VsixSubPath="MVC_WebApplicationProjectTemplate.csaspx"
+      Type="Microsoft.VisualStudio.Mvc.Template"
+      d:Source="File"
+      Path="MVC_WebApplicationProjectTemplate.csaspx\Web.config"
+      ProjectType="MVC"
+      Language="C#"
+      ViewEngine="Razor"
+      TemplateId="MyMvcApplication"
+      Title="Custom Basic Web Application"
+      Description="A custom template derived from a Basic MVC web application (Razor)"
+      Version="4.0"/>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="%CurrentProject%" d:TargetPath="|%CurrentProject%;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\MVCTemplate.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\MVCTemplate.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:TargetPath="|MVCTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+
+  </Assets>
+
+
+</PackageManifest>
+
